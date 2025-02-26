@@ -19,7 +19,7 @@ const home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 2000); // Change image every 3 seconds
+    }, 3000); // Change image every 3 seconds
     return () => clearInterval(interval);
   }, []);
 
@@ -69,7 +69,11 @@ const home = () => {
       className="flex flex-col items-center justify-center h-[100vh] text-black text-center opacity-70 p-8 bg-cover bg-fixed bg-center"
       style={{ backgroundImage: `url(${images[currentImage]})` }}
     >
-      <h1 className="text-8xl font-black mb-6 drop-shadow-lg">Welcome to VitalEdge</h1>
+      <h1 className="text-[24px] md:text-8xl font-black tracking-tight z-10 animate-gradient md:my-12 my-6 relative"> <span className="bg-gradient-to-r from-cyan-600 via-cyan-800 to-cyan-400 animate-gradient bg-clip-text text-transparent">Welcome</span>
+      <span className="mx-3 bg-gradient-to-r from-blue-600 via-blue-900 animate-gradient to-purple-800 bg-clip-text text-transparent"> to </span> VitalEdge
+      
+      </h1>
+      
       <p className="text-lg font-extrabold max-w-3xl leading-relaxed drop-shadow-md">
         Unlock the secrets to a healthier life with expert insights on nutrition, fitness, and hormonal balance. 
         Your journey to a better you starts here!

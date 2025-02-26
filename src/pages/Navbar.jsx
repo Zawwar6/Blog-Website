@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="relative z-50">
           <button 
             onClick={() => setDropdownOpen(!dropdownOpen)} 
-            className="hover:text-black transition flex items-center"
+            className="hover:text-black transition flex items-center cursor-pointer"
           >
             Blog 
           </button>

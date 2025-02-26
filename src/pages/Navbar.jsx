@@ -23,7 +23,7 @@ const Navbar = () => {
             onClick={() => setDropdownOpen(!dropdownOpen)} 
             className="hover:text-black transition flex items-center"
           >
-            Blog <span className="ml-1">▼</span>
+            Blog 
           </button>
           {dropdownOpen && (
             <div 

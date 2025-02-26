@@ -9,7 +9,7 @@ const About = ()=> {
     
     <>
  
-    <section className="py-16 px-8 flex items-center justify-center">
+    <section className="py-16 px-8 flex items-center justify-center bg-black">
      
     <div className="max-w-2xl text-left">
   <h2 className="text-7xl font-extrabold py-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">

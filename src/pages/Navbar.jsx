@@ -6,22 +6,22 @@ const Navbar = () => {
   return (
     
     <div>
-      <nav className="flex items-center justify-between p-4   text-black ">
+      <nav className="flex items-center justify-between p-4 bg-black   text-white ">
       {/* Logo on the Left */}
-      <div className="text-3xl font-bold tracking-wide uppercase bg-gradient-to-r from-black to-red-500 text-transparent bg-clip-text">
+      <div className="text-3xl font-bold tracking-wide uppercase bg-gradient-to-r from-white to-red-500 text-transparent bg-clip-text">
         VitalEdge
       </div>
 
       {/* Centered Navigation Links */}
       <div className="flex space-x-20 text-lg">
-        <Link to="/" className="hover:text-black transition">Home</Link>
-        <Link to="/about" className="hover:text-black transition">About Us</Link>
+        <Link to="/" className="hover:text-white transition font-extrabold text-lg">Home</Link>
+        <Link to="/about" className="hover:text-white transition font-extrabold text-lg">About Us</Link>
         
         {/* Blog Dropdown */}
         <div className="relative z-50">
           <button 
             onClick={() => setDropdownOpen(!dropdownOpen)} 
-            className="hover:text-black transition flex items-center cursor-pointer"
+            className="hover:text-white transition flex items-center cursor-pointer font-extrabold text-lg"
           >
             Blog 
           </button>
@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
 
       {/* Contact Us on the Right */}
-      <Link to="/contact" className="hover:text-gray-300 transition">Contact Us</Link>
+      <Link to="/contact" className="hover:text-white transition font-extrabold text-lg">Contact Us</Link>
     </nav>
     </div>
   )

@@ -1,10 +1,10 @@
 import React from 'react'
+import Navbar from "../pages/Navbar";
 
 const Fitness = () => {
   return (
     <div>
-      <h1>Fitness
-      </h1>
+      <Navbar/>
     </div>
   )
 }

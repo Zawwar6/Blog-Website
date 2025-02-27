@@ -31,24 +31,39 @@ const FeaturedBlogs = () => {
 
   return (
     <section className="py-16 px-8 bg-gradient-to-r from-black via-gray-900 to-gray-800 text-white">
-        <h2 className="text-7xl text-center font-extrabold py-8 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">Health Unlocked</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-          {blogs.map((blog, index) => (
-            <motion.div
-              key={index}
-              className="bg-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300"
-              whileHover={{ scale: 1.05 }}
-            >
-              <img src={blog.image} alt={blog.title} className="w-full h-52 object-cover rounded-t-xl mb-6" />
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">{blog.title}</h3>
-              <p className="text-gray-700 text-lg mb-6">{blog.description}</p>
-              <Link to={blog.link} className="text-blue-700 font-semibold text-lg hover:underline">
-                Read More &rarr;
-              </Link>
-            </motion.div>
-          ))}
-        </div>
-      </section>
+  <h2 className="text-5xl sm:text-6xl text-center font-extrabold py-8 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+    Health Unlocked
+  </h2>
+  
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+    {blogs.map((blog, index) => (
+      <motion.div
+        key={index}
+        className="relative p-6 rounded-xl shadow-lg transition duration-300 backdrop-blur-lg bg-white/10 border border-white/20 hover:shadow-2xl"
+        whileHover={{ scale: 1.05 }}
+      >
+        {/* Hover Background Effect */}
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/30 rounded-xl opacity-0 hover:opacity-100 transition duration-500"></div>
+
+        {/* Content */}
+        <img src={blog.image} alt={blog.title} className="w-full h-52 object-cover rounded-lg mb-4" />
+        <h3 className="text-xl font-bold text-white mb-3">{blog.title}</h3>
+        <p className="text-gray-300 text-sm mb-4">{blog.description}</p>
+
+        {/* Fixed Link Styling */}
+        <Link
+          to={blog.link}
+          className="relative inline-block text-blue-400 font-semibold text-lg transition duration-300 group"
+        >
+          Read More &rarr;
+          <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full"></span>
+        </Link>
+      </motion.div>
+    ))}
+  </div>
+</section>
+
+
   );
 };
 

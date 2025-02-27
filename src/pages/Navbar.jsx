@@ -28,7 +28,7 @@ const Navbar = () => {
               onClick={() => setDropdownOpen(!dropdownOpen)}
               className="hover:text-white transition flex items-center cursor-pointer font-extrabold text-lg"
             >
-              Blog
+              Blogs
             </button>
             {dropdownOpen && (
               <div 
@@ -79,7 +79,7 @@ const Navbar = () => {
             onClick={() => setDropdownOpen(!dropdownOpen)}
             className="hover:text-red-500 transition flex items-center cursor-pointer font-extrabold text-lg"
           >
-            Blog
+            Blogs
           </button>
           {dropdownOpen && (
             <div className="mt-2 w-48 bg-white text-black shadow-md rounded-md border border-gray-300">

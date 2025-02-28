@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../pages/Navbar";
+import Footer from "./Footer";
 
 const blogTopics = [
   {
@@ -81,6 +82,7 @@ const Health = () => {
               <Link
                 to={topic.link}
                 className="block mt-6 py-3 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
+                onClick={() => window.scrollTo(0, 0)}
               >
                 Read More
               </Link>
@@ -88,6 +90,7 @@ const Health = () => {
           </div>
         ))}
       </section>
+      <Footer/>
     </div>
   );
 };

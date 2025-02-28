@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Navbar from "../pages/Navbar";
+import Footer from "./Footer";
 
 const fitnessArticles = [
   {
@@ -86,6 +87,7 @@ const FitnessPage = () => {
           </motion.div>
         ))}
       </section>
+      <Footer/>
     </div>
   );
 };

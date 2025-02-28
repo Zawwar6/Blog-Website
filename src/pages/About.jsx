@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../pages/Navbar";
 
+
 const About = () => {
   const [hovered, setHovered] = useState(false);
 
@@ -77,6 +78,7 @@ const About = () => {
           />
         </div>
       </section>
+      
     </>
   );
 };

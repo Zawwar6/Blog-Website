@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../pages/Navbar";
+import Footer from "./Footer";
 
 const menHealthArticles = [
   {
@@ -79,6 +80,7 @@ const MenHealth = () => {
           </div>
         ))}
       </section>
+      <Footer/>
     </div>
   );
 };

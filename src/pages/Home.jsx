@@ -4,6 +4,7 @@ import About from "./About";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import Navbar from "../pages/Navbar";
+import Footer from "./Footer";
 
 const Home = () => {
   const images = ["/bg.jpg", "/bg2.jpg"];
@@ -52,6 +53,7 @@ const Home = () => {
       <About />
       <Blog />
       <Contact />
+      <Footer/>
     </>
   );
 };

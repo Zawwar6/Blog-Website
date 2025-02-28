@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "../pages/Navbar";
+import Footer from "./Footer";
 
 const hormoneArticles = [
   {
@@ -107,6 +108,7 @@ const HormonesPage = () => {
           </motion.div>
         ))}
       </section>
+      <Footer/>
     </div>
   );
 };

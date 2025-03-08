@@ -46,10 +46,10 @@ const WomenHealth = () => {
     <div className="bg-black min-h-screen">
       {/* <Navbar /> */}
       <div className="py-8 text-center px-4">
-        <h2 className="text-4xl py-10 sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-400">
+        <h2 className="text-4xl py-3 sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-400">
           Women's Health: <br /> Strength, Balance & Wellness
         </h2>
-        <p className="text-base sm:text-lg font-bold mt-4 bg-gradient-to-r from-white to-pink-600 text-transparent bg-clip-text">
+        <p className="text-base py-3 sm:text-lg font-bold mt-4 bg-gradient-to-r from-white to-pink-600 text-transparent bg-clip-text">
           Empowering women with knowledge, care, and wellness for a healthier life.
         </p>
       </div>
@@ -60,11 +60,11 @@ const WomenHealth = () => {
             key={index} 
             className={`flex flex-col md:flex-row gap-10 sm:gap-16 md:gap-24 items-center mb-16 p-6 sm:p-8 rounded-xl transition-transform transform hover:scale-105 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}
           >
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 ">
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full h-64 sm:h-80 md:h-96 rounded-xl shadow-md object-cover"
+                className="w-full h-64  sm:h-80 md:h-96 rounded-xl shadow-md object-cover"
               />
             </div>
 
@@ -81,7 +81,7 @@ const WomenHealth = () => {
         ))}
          <Link
                                         to='/WomenDetails'
-                                        className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
+                                        className=" py-3 ml-4 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
                                         onClick={() => window.scrollTo(0, 0)}
                                       >
                                         Read More About The Women's Health

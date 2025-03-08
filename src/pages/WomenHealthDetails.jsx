@@ -8,7 +8,7 @@ const WomensHealthDetails = () => {
         <h1 className="text-4xl md:text-5xl py-6 font-extrabold bg-gradient-to-r from-pink-400 to-purple-300 text-transparent bg-clip-text">
           A Holistic Approach to Lifelong Well-Being
         </h1>
-        <p className="mt-4 text-lg md:text-xl text-gray-300">
+        <p className=" text-lg md:text-xl text-gray-300">
           Your health is your greatest asset. Caring for your body and mind is essential for living a vibrant, empowered life.
         </p>
       </div>

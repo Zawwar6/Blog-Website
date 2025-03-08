@@ -110,7 +110,7 @@ const HormonesPage = () => {
         ))}
         <Link
                         to='/HormonesDetail'
-                        className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
+                        className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 ml-6 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
                         onClick={() => window.scrollTo(0, 0)}
                       >
                         Read More About The Hormones

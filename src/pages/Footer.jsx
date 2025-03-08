@@ -18,7 +18,7 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <h3 className="text-xl font-bold text-red-400">Quick Links</h3>
-          <ul className="mt-2 space-y-2 text-center md:text-left">
+          <ul className="mt-2 space-y-2  md:text-left">
             <li><Link to="/" className="hover:text-red-400 transition">Home</Link></li>
             <li><Link to="/about" className="hover:text-red-400 transition">About Us</Link></li>
             <li><Link to="/contact" className="hover:text-red-400 transition">Contact</Link></li>
@@ -28,7 +28,7 @@ const Footer = () => {
         {/* Blog Links */}
         <div>
           <h3 className="text-xl font-bold text-red-400">Blog Categories</h3>
-          <ul className="mt-2 space-y-2 text-center md:text-left">
+          <ul className="mt-2 space-y-2  md:text-left">
             <li><Link to="/blog/health" className="hover:text-red-400 transition" onClick={() => window.scrollTo(0, 0)}>Health</Link></li>
             <li><Link to="/blog/fitness" className="hover:text-red-400 transition" onClick={() => window.scrollTo(0, 0)}>Fitness</Link></li>
             <li><Link to="/blog/hormones" className="hover:text-red-400 transition" onClick={() => window.scrollTo(0, 0)}>Hormones</Link></li>

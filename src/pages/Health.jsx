@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../pages/Navbar";
 import Footer from "./Footer";
 
 const blogTopics = [
@@ -9,7 +8,7 @@ const blogTopics = [
     image: "/hw.jpg",
     description:
       "True wellness balances body, mind, and spirit. Eat nutrient-rich foods—fruits, veggies, whole grains, and lean proteins—to fuel your body. Stay hydrated and prioritize sleep (7-9 hours) for energy and recovery. Move daily: walk, stretch, or exercise to boost strength and mood. Practice mindfulness through meditation or deep breathing to reduce stress and improve focus. Nurture positive relationships—they’re essential for emotional well-being. Small, consistent changes in diet, activity, and mindset lead to lasting health. Start today for a vibrant, fulfilling life.",
-    link: "/blog/health",
+    link: "/HealthDetail",
   },
   {
     title: "Fitness & Exercise",
@@ -44,7 +43,7 @@ const blogTopics = [
 const Health = () => {
   return (
     <div className="bg-black min-h-screen">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="py-12 text-center">
         <h2 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-yellow-400 text-center">
           Revive, Thrive, and Feel Alive

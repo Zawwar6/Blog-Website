@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Navbar from "../pages/Navbar";
+
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 const hormoneArticles = [
   {
@@ -63,7 +64,7 @@ const hormoneArticles = [
 const HormonesPage = () => {
   return (
     <div className="bg-black text-white min-h-screen">
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* Hero Section */}
       <section
@@ -107,6 +108,13 @@ const HormonesPage = () => {
             </div>
           </motion.div>
         ))}
+        <Link
+                        to='/HormonesDetail'
+                        className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        Read More About The Hormones  Click It
+                      </Link>
       </section>
       <Footer/>
     </div>

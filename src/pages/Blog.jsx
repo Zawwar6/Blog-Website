@@ -53,7 +53,8 @@ const FeaturedBlogs = () => {
         {/* Fixed Link Styling */}
         <Link
           to={blog.link}
-          className="relative inline-block text-blue-400 font-semibold text-lg transition duration-300 group"
+          className="relative inline-block text-blue-400 font-semibold text-lg transition duration-300 group "
+          onClick={() => window.scrollTo(0, 0)}
         >
           Read More &rarr;
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-400 transition-all duration-300 group-hover:w-full"></span>

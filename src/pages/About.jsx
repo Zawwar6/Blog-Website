@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navbar from "../pages/Navbar";
+
 
 
 const About = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Navbar from "../pages/Navbar";
+
 import Footer from "./Footer";
 
 const fitnessArticles = [
@@ -46,7 +46,7 @@ const fitnessArticles = [
 const FitnessPage = () => {
   return (
     <div className="bg-black text-white min-h-screen">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* Hero Section */}
       <section
         className="h-[70vh] flex flex-col items-center justify-center text-center p-6 bg-cover bg-center relative"
@@ -86,6 +86,13 @@ const FitnessPage = () => {
             </div>
           </motion.div>
         ))}
+        <Link
+                        to='/FitnessDetail'
+                        className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        Read More About The Fitness  Click It
+                      </Link>
       </section>
       <Footer/>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../pages/Navbar";
+
 import Footer from "./Footer";
 
 const menHealthArticles = [
@@ -44,7 +44,7 @@ const menHealthArticles = [
 const MenHealth = () => {
   return (
     <div className="bg-black min-h-screen">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="py-12 text-center px-4">
         <h2 className="text-2xl py-3 sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-400">
           Men's Health: Strength, Energy & Vitality
@@ -79,6 +79,13 @@ const MenHealth = () => {
             </div>
           </div>
         ))}
+        <Link
+                                to='/MenDetails'
+                                className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
+                                onClick={() => window.scrollTo(0, 0)}
+                              >
+                                Read More About The Men Health  Click It
+                              </Link>
       </section>
       <Footer/>
     </div>

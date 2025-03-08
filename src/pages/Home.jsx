@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import About from "./About";
 import Blog from "./Blog";
 import Contact from "./Contact";
-import Navbar from "../pages/Navbar";
 import Footer from "./Footer";
 
 const Home = () => {
@@ -19,7 +18,7 @@ const Home = () => {
 
   return (
     <>  
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* Hero Section */}
       <section

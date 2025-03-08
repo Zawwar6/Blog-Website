@@ -68,7 +68,7 @@ const HormonesPage = () => {
 
       {/* Hero Section */}
       <section
-        className="h-[60vh] flex flex-col items-center justify-center text-center p-6 bg-cover bg-center relative"
+        className="h-[30vh] flex flex-col items-center justify-center text-center p-6 bg-cover bg-center relative"
         style={{ backgroundImage: "url('/hormones-hero.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
@@ -81,7 +81,7 @@ const HormonesPage = () => {
       </section>
 
       {/* Articles Section */}
-      <section className="max-w-6xl mx-auto py-16 space-y-16 px-4">
+      <section className="max-w-6xl mx-auto py-16 space-y-6 px-4">
         {hormoneArticles.map((article, index) => (
           <motion.div
             key={article.id}
@@ -113,7 +113,7 @@ const HormonesPage = () => {
                         className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        Read More About The Hormones  Click It
+                        Read More About The Hormones
                       </Link>
       </section>
       <Footer/>

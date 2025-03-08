@@ -49,7 +49,7 @@ const Health = () => {
           Revive, Thrive, and Feel Alive
         </h2>
         <p className="text-lg md:text-xl font-bold mt-4 bg-gradient-to-r from-white to-pink-600 text-transparent bg-clip-text">
-          Discover expert tips, actionable advice, and inspiring stories to transform your health and wellness journey.
+          Discover expert tips, actionable advice, and inspiring <br /> stories to transform your health and wellness journey.
         </p>
       </div>
 

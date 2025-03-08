@@ -9,7 +9,7 @@ const About = () => {
     <>
       <section className="py-16 px-6 md:px-12 lg:px-16 flex flex-col md:flex-row items-center justify-center bg-black">
         <div className="max-w-2xl text-left">
-          <h2 className="text-5xl sm:text-6xl md:text-7xl font-extrabold py-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+          <h2 className="text-5xl sm:text-6xl text-center font-extrabold py-8 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
             About VitalEdge
           </h2>
           <div className="w-16 sm:w-20 md:w-24 h-1 bg-gradient-to-r mb-7 from-purple-400 to-pink-400 rounded-full my-4"></div>

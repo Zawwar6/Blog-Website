@@ -5,7 +5,7 @@ const HealthDetail = () => {
   return (
     <div className="bg-black text-white min-h-screen py-12 px-4 md:px-8 lg:px-16">
       <div className="max-w-5xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-green-400 to-yellow-300 text-transparent bg-clip-text">
+        <h1 className="text-4xl  md:text-5xl font-extrabold bg-gradient-to-r from-green-400 to-yellow-300 text-transparent bg-clip-text">
           A Holistic Approach to a Balanced Life
         </h1>
         <p className="mt-4 text-lg md:text-xl text-gray-300">

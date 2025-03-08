@@ -5,7 +5,7 @@ const MensHealthDetails = () => {
   return (
     <div className="bg-black text-white min-h-screen py-12 px-4 md:px-8 lg:px-16">
       <div className="max-w-5xl mx-auto text-center">
-        <h1 className="text-4xl mb-4 md:text-5xl font-extrabold bg-gradient-to-r from-blue-400 to-green-300 text-transparent bg-clip-text">
+        <h1 className="text-4xl mb-4 py-5 md:text-5xl font-extrabold bg-gradient-to-r from-blue-400 to-green-300 text-transparent bg-clip-text">
           Your Comprehensive Guide to Lifelong Well-Being
         </h1>
         <p className="mt-6 text-lg md:text-xl text-gray-300">

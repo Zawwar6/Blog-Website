@@ -5,7 +5,7 @@ const WomensHealthDetails = () => {
   return (
     <div className="bg-black text-white min-h-screen py-12 px-4 md:px-8 lg:px-16">
       <div className="max-w-5xl mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-pink-400 to-purple-300 text-transparent bg-clip-text">
+        <h1 className="text-4xl md:text-5xl py-6 font-extrabold bg-gradient-to-r from-pink-400 to-purple-300 text-transparent bg-clip-text">
           A Holistic Approach to Lifelong Well-Being
         </h1>
         <p className="mt-4 text-lg md:text-xl text-gray-300">

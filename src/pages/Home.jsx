@@ -25,13 +25,13 @@ const Home = () => {
         className="flex flex-col items-center justify-center h-screen text-white text-center p-6 bg-cover opacity-80 bg-center bg-fixed transition-all duration-500 ease-in-out"
         style={{ backgroundImage: `url(${images[currentImage]})` }}
       >
-        <h2 className="text-4xl sm:text-7xl md:text-8xl lg:text-9xl font-black tracking-tight z-10 animate-gradient my-6">
+        <h2 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black tracking-tight z-10 animate-gradient my-6">
   <span className="bg-gradient-to-r from-cyan-600 via-cyan-800 to-cyan-400 bg-clip-text text-transparent">
-    Welcome
+    Welcome to
   </span>
-  <span className="mx-2 bg-gradient-to-r from-blue-600 via-blue-900 to-purple-800 bg-clip-text text-transparent">
-    to
-  </span>{" "}
+  {/* <span className="mx-2 bg-gradient-to-r from-blue-600 via-blue-900 to-purple-800 bg-clip-text text-transparent">
+      to
+  </span>{" "} */}
    <span className="mx-2 bg-gradient-to-r from-blue-600 via-black to-purple-800 bg-clip-text text-transparent">    VitalEdge </span>
 </h2>
 

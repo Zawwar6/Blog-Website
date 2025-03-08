@@ -49,11 +49,11 @@ const FitnessPage = () => {
       {/* <Navbar /> */}
       {/* Hero Section */}
       <section
-        className="h-[70vh] flex flex-col items-center justify-center text-center p-6 bg-cover bg-center relative"
+        className="h-[30vh] flex flex-col items-center justify-center text-center p-6 bg-cover bg-center relative"
         style={{ backgroundImage: "url('/fitness-hero.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
-        <h2 className="text-7xl font-extrabold bg-gradient-to-r py-3 from-green-400 to-blue-600 text-transparent bg-clip-text relative z-10">
+        <h2 className="text-5xl font-extrabold bg-gradient-to-r py-3 from-green-400 to-blue-600 text-transparent bg-clip-text relative z-10">
           Transform Your Fitness Journey
         </h2>
         <p className="text-2xl mt-4 max-w-2xl relative z-10">
@@ -91,7 +91,7 @@ const FitnessPage = () => {
                         className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
                         onClick={() => window.scrollTo(0, 0)}
                       >
-                        Read More About The Fitness  Click It
+                        Read More About The Fitness
                       </Link>
       </section>
       <Footer/>

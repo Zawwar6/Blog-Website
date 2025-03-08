@@ -45,9 +45,9 @@ const MenHealth = () => {
   return (
     <div className="bg-black min-h-screen">
       {/* <Navbar /> */}
-      <div className="py-12 text-center px-4">
+      <div className="py-7 text-center px-4">
         <h2 className="text-2xl py-3 sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-400">
-          Men's Health: Strength, Energy & Vitality
+          Men's Health: <br /> Strength, Energy & Vitality
         </h2>
         <p className="text-2xl sm:text-lg font-bold mt-4 bg-gradient-to-r from-white to-blue-600 text-transparent bg-clip-text">
           Unlock the secrets to a healthier, stronger, and more energized life.
@@ -79,13 +79,10 @@ const MenHealth = () => {
             </div>
           </div>
         ))}
-        <Link
-                                to='/MenDetails'
-                                className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
-                                onClick={() => window.scrollTo(0, 0)}
-                              >
-                                Read More About The Men Health  Click It
-                              </Link>
+        <Link to='/MenDetails' className=" py-3 px-6 bg-gradient-to-r from-gray-400 to-blue-700 text-white text-center text-lg font-semibold rounded-full shadow-xl hover:from-black hover:to-blue-800 transition-all duration-300 transform"
+           onClick={() => window.scrollTo(0, 0)}>
+          Read More About The Men's Health 
+         </Link>
       </section>
       <Footer/>
     </div>

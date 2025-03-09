@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Footer from "./Footer";
+
 
 const menHealthArticles = [
   {
@@ -84,7 +84,7 @@ const MenHealth = () => {
           Read More About The Men's Health 
          </Link>
       </section>
-      <Footer/>
+    
     </div>
   );
 };

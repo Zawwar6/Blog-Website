@@ -14,6 +14,7 @@ import FitnessDetail from "./pages/FitnessDetail";
 import HormonesDetails from "./pages/HormonesDetails";
 import WomenHealthDetails from "./pages/WomenHealthDetails";
 import MenHealthDetail from "./pages/MenHealthDetail";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
           <Route path="/blog/women-health" element={<WomenHealth />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes> 
+        </Routes>
+        <Footer/> 
     </Router>
   );
 }

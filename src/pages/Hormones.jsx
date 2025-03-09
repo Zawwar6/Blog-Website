@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import Footer from "./Footer";
 import { Link } from "react-router-dom";
 
 const hormoneArticles = [
@@ -116,7 +115,7 @@ const HormonesPage = () => {
                         Read More About The Hormones
                       </Link>
       </section>
-      <Footer/>
+   
     </div>
   );
 };

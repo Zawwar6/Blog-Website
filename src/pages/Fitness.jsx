@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import Footer from "./Footer";
+
 
 const fitnessArticles = [
   {
@@ -94,7 +94,7 @@ const FitnessPage = () => {
                         Read More About The Fitness
                       </Link>
       </section>
-      <Footer/>
+    
     </div>
   );
 };

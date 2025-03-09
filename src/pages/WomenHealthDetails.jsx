@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+
 
 const WomensHealthDetails = () => {
   return (
@@ -102,7 +102,7 @@ const WomensHealthDetails = () => {
           Every small step you take today leads to a lifetime of strength, balance, and vitality. Start now—your future self will thank you.
         </p>
       </div>
-      <Footer/>
+    
     </div>
   );
 };

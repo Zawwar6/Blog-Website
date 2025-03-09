@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+
 
 const HormonesDetails = () => {
   return (
@@ -70,7 +70,7 @@ const HormonesDetails = () => {
       <div className="text-center mt-16">
         <p className="text-lg font-bold text-gray-300">Take charge of your hormonal health today for a balanced, vibrant life.</p>
       </div>
-      <Footer/>
+     
     </div>
   );
 };

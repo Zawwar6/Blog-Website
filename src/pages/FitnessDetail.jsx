@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+
 
 const FitnessDetail = () => {
   return (
@@ -74,7 +74,7 @@ const FitnessDetail = () => {
       <div className="text-center mt-16">
         <p className="text-lg font-bold text-gray-300">Start today—your future self will thank you.</p>
       </div>
-      <Footer/>
+   
     </div>
   );
 };

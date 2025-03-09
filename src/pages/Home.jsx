@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import About from "./About";
 import Blog from "./Blog";
 import Contact from "./Contact";
-import Footer from "./Footer";
+
 
 const Home = () => {
   const images = ["/bg.jpg", "/bg2.jpg"];
@@ -52,7 +52,7 @@ const Home = () => {
       <About />
       <Blog />
       <Contact />
-      <Footer/>
+    
     </>
   );
 };

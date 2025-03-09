@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "./Footer";
 
 
 
@@ -77,8 +78,9 @@ const About = () => {
             className="w-full h-full rounded-lg transition-transform duration-500"
           />
         </div>
+        
       </section>
-      
+      <Footer/>
     </>
   );
 };

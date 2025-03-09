@@ -45,11 +45,11 @@ const Health = () => {
     <div className="bg-black min-h-screen">
       {/* <Navbar /> */}
       <div className="py-12 text-center">
-        <h2 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-yellow-400 text-center">
+        <h2 className="text-4xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-yellow-400 text-center">
           Revive, Thrive, and Feel Alive
         </h2>
-        <p className="text-lg md:text-xl font-bold mt-4 bg-gradient-to-r from-white to-pink-600 text-transparent bg-clip-text">
-          Discover expert tips, actionable advice, and inspiring <br /> stories to transform your health and wellness journey.
+        <p className="text-md md:text-xl font-bold mt-4 bg-gradient-to-r from-white to-pink-600 text-transparent bg-clip-text">
+          Discover expert tips, actionable advice, and inspiring  stories to transform your health and wellness journey.
         </p>
       </div>
 

@@ -10,7 +10,7 @@ const Footer = () => {
           <h2 className="text-3xl font-bold bg-gradient-to-r from-white to-red-500 text-transparent bg-clip-text">
             VitalEdge
           </h2>
-          <p className="mt-2 text-gray-300 text-center md:text-left">
+          <p className="mt-2 text-gray-300  md:text-left">
             Your trusted source for health, fitness, and wellness updates. Stay fit, stay healthy!
           </p>
         </div>

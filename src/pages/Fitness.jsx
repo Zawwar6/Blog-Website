@@ -76,10 +76,10 @@ const FitnessPage = () => {
 
             {/* Article Content */}
             <div className="md:w-1/2">
-              <h2 className="text-3xl font-bold  bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
+              <h2 className="text-4xl font-bold  bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
                 {article.title}
               </h2>
-              <p className=" mt-4 text-sm bg-gradient-to-r font-bold from-green-500 to-pink-600 text-transparent bg-clip-text leading-relaxed ">
+              <p className=" mt-4 text- bg-gradient-to-r font-bold from-green-500 to-pink-600 text-transparent bg-clip-text leading-relaxed ">
                 {article.description}
               </p>
               

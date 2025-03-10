@@ -53,10 +53,10 @@ const FitnessPage = () => {
         style={{ backgroundImage: "url('/fitness-hero.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
-        <h2 className="text-5xl font-extrabold bg-gradient-to-r py-3 from-green-400 to-blue-600 text-transparent bg-clip-text relative z-10">
+        <h2 className="text-3xl font-extrabold bg-gradient-to-r py-3 from-green-400 to-blue-600 text-transparent bg-clip-text relative z-10">
           Transform Your Fitness Journey
         </h2>
-        <p className="text-2xl mt-4 max-w-2xl relative z-10">
+        <p className="text-base mt-4 max-w-2xl relative z-10">
           Expert guides on workouts, nutrition, and mental health.
         </p>
       </section>
@@ -76,10 +76,10 @@ const FitnessPage = () => {
 
             {/* Article Content */}
             <div className="md:w-1/2">
-              <h2 className="text-5xl font-bold  bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
+              <h2 className="text-3xl font-bold  bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
                 {article.title}
               </h2>
-              <p className=" mt-4 text-lg bg-gradient-to-r font-bold from-green-500 to-pink-600 text-transparent bg-clip-text leading-relaxed ">
+              <p className=" mt-4 text-sm bg-gradient-to-r font-bold from-green-500 to-pink-600 text-transparent bg-clip-text leading-relaxed ">
                 {article.description}
               </p>
               

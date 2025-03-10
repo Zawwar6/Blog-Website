@@ -71,7 +71,7 @@ const HormonesPage = () => {
         style={{ backgroundImage: "url('/hormones-hero.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold bg-gradient-to-r py-3 from-yellow-400 to-red-600 text-transparent bg-clip-text relative z-10">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl mt-5 font-extrabold bg-gradient-to-r py-3 from-yellow-400 to-red-600 text-transparent bg-clip-text relative z-10">
           Understanding Your Hormones
         </h2>
         <p className="text-lg md:text-xl lg:text-2xl mt-4 max-w-2xl relative z-10">

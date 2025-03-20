@@ -10,7 +10,7 @@ const fitnessArticles = [
     title: "The Ultimate Full-Body Workout Plan",
     description:
       "A complete workout routine is essential for building strength, endurance, and muscle growth. This plan focuses on a mix of compound exercises, high-intensity interval training (HIIT), and proper recovery techniques. It includes strength training, cardio, and mobility exercises. For best results, train 3-5 times a week, follow a balanced diet, and progressively increase intensity. By staying consistent and focusing on proper recovery, you can achieve long-term fitness success.",
-    image: "/workout.jpg",
+    image: "/wo.jpg",
     link: "/blog/ultimate-workout",
     reverse: false,
   },

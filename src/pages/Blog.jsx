@@ -13,19 +13,19 @@ const FeaturedBlogs = () => {
       title: "Men’s Health: The Hormonal Balance",
       description: "Understand the role of hormones in men’s health and wellness.",
       link: "/blog/men-health",
-      image: "/men.png"
+      image: "/menbg.jpg"
     },
     {
       title: "Home Workouts: Fitness at Your Fingertips",
       description: "Stay fit without the gym! Try these at-home workouts.",
       link: "/blog/fitness",
-      image: "/workout.jpg"
+      image: "/wo.jpg"
     },
     {
       title: "Women’s Wellness: Hormonal Harmony",
       description: "Understand the role of hormones in women’s health and wellness.",
       link: "/blog/women-health",
-      image: "/women.png"
+      image: "/we.png"
     },
   ];
 
